@@ -37,7 +37,7 @@ public class GameStatesListener implements StateMachineListener<GameStates, Game
 
     @Override
     public void transition(Transition<GameStates, GameEvents> transition) {
-//        LOGGER.info("Transition from state {} to state {}", transition.getSource(), transition.getTarget());
+        LOGGER.info("Transition from state {} to state {}", transition.getSource(), transition.getTarget());
     }
 
     @Override
